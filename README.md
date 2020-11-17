@@ -1,7 +1,7 @@
 <h1>Devchallenges | Frontend</h1>
 
 <p align="center">
-<image src="imgs/devchallenges.png"/></br>
+<image src="imgs/devchalleges.png"/></br>
 <label>frontend</label>
 </p>
 
@@ -14,21 +14,27 @@
 ## Apresentação do Projeto :sparkles:
 
 <p align="center">
-<image src="bg.png" />
+<image src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iflexion.com%2Ffrontend-development&psig=AOvVaw1wPZYIbBAvJb1w-z1j4_qi&ust=1605732270720000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDLsoO5iu0CFQAAAAAdAAAAABAJ" />
 </p>
 
 ---
 
 ## Sobre :memo:
 
-Challenge Recipe page - Desenvolver site seguindo o design feito no figma
+Repositório onde estão guardados os sites que faço para praticar o frontend
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2jVBTSKeCYF0dIN6fi0stX%2Frecipe-blog-challenge%3Fnode-id%3D1%253A7" allowfullscreen></iframe>
+👀 Estou em busca de estágio em frontend, me contrata ae
+
+- <a href="https://www.linkedin.com/in/diegononato/">Linkedin</a>
 
 ## Tecnologias :rocket:
 
 - HTML5
-- CSS3 - Grid + Flexbox
+- CSS3
+- Javascript
+- React
+- Jquery
+- Bootstrap
 
 ## Como contribuir 🤔
 
