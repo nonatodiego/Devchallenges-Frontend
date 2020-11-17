@@ -1,0 +1,264 @@
+/* fontes */
+
+/* 
+Playfair Display - 700
+Playfair Display - 400
+Montserrat - 700
+Montserrat - 600
+Montserrat - 500
+Montserrat - 500 - italic
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,500&family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container h1,
+.mark {
+  grid-column: 2;
+}
+
+.container h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+
+  margin-bottom: 12px;
+
+  color: #000000;
+}
+
+.container .mark {
+  display: flex;
+  align-content: center;
+  margin-bottom: 17px;
+}
+
+.container .mark p {
+  margin-left: 12px;
+  max-width: 592px;
+
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #4f4f4f;
+}
+
+.banner {
+  grid-column: 2;
+  width: 969px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+section {
+  grid-column: 2;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
+  margin-top: 48px;
+}
+
+section .recipe h2 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #333333;
+
+  margin-bottom: 32px;
+}
+
+.graham {
+  margin-bottom: 38px;
+}
+
+.graham span:first-child,
+.cheesecake span:first-child {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #333333;
+  margin-bottom: 31px;
+}
+
+.graham label,
+.cheesecake label {
+  margin-top: 31px;
+}
+
+.cheesecake {
+  margin-bottom: 38px;
+}
+
+.graham input[type='checkbox'] {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+
+  color: #333333;
+}
+
+.instructions {
+  margin-top: 28px;
+}
+
+.step {
+  display: flex;
+  margin-bottom: 31px;
+}
+
+.step .number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  height: 36px;
+  width: 36px;
+
+  color: #ffffff;
+  background: #f2994a;
+
+  border-radius: 6px;
+
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+
+  margin-right: 15px;
+  padding: 15px;
+}
+
+.step .step-text p {
+  align-self: center;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+/* card INFO */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+
+  width: 216px;
+  height: 367px;
+}
+
+.info .field {
+  display: flex;
+  padding: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+.info .field span {
+  margin-right: 10px;
+}
+
+.info .field .field-text p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+
+  color: #bdbdbd;
+}
+
+.info .field .field-text .orange {
+  color: #f2994a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.info .field .field-text h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #333333;
+  margin-top: 4px;
+}
+
+.container a {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+
+  grid-column: 2;
+
+  color: #bdbdbd;
+
+  margin-bottom: 100px;
+}
+
+footer {
+  margin: 0 auto;
+  grid-column: 2;
+  padding: 10px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #a9a9a9;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 375px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
