@@ -13,6 +13,8 @@ Repositório onde estão guardados os sites que faço para praticar o frontend
 ## Projetos  🛠 
 
 - <a href="https://github.com/nonatodiego/Devchallenges-Frontend/tree/main/recipe-page">Recipe Page</a>
+- <a href="https://github.com/nonatodiego/Devchallenges-Frontend/tree/main/jogo-da-memoria">Jogo da memoria</a>
+
 
 
 ## Tecnologias :rocket:
